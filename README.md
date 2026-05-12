@@ -157,7 +157,7 @@ AI Tool (Claude, Cursor, etc.)  ←— stdio —→  lovie (this package)  ←�
 
 | Variable | Description |
 |----------|-------------|
-| `LOVIE_MCP_URL` | Custom MCP server URL (default: `https://lovie-mcp.vercel.app/mcp/mcp`) |
+| `LOVIE_MCP_URL` | Custom MCP server URL (default: `https://mcp.lovie.co/mcp/mcp`) |
 | `LOVIE_API_KEY` | Bearer token — overrides stored OAuth token |
 | `DEBUG` | Enable verbose logging to stderr |
 
