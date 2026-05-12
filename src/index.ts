@@ -32,7 +32,7 @@ import qrcode from "qrcode-terminal";
 // ─── Section 2: Constants + Helpers ───────────────────────────────────────────
 
 const REMOTE_MCP_URL =
-  process.env.LOVIE_MCP_URL ?? "https://lovie-mcp.vercel.app/mcp/mcp";
+  process.env.LOVIE_MCP_URL ?? "https://mcp.lovie.co/mcp/mcp";
 const REQUEST_TIMEOUT = 30_000;
 const DEBUG = !!process.env.DEBUG;
 
