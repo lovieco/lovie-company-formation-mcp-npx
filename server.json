@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "co.lovie/company-formation",
+  "title": "Lovie Company Formation",
+  "description": "Form companies, manage bank accounts, cards, invoices and more — directly from your AI coding tools.",
+  "repository": {
+    "url": "https://github.com/lovieco/lovie-company-formation-mcp-npx",
+    "source": "github"
+  },
+  "version": "1.0.10",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "lovie",
+      "version": "1.0.10",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.lovie.co/mcp/mcp"
+    }
+  ]
+}
