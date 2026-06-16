@@ -1,6 +1,7 @@
 {
   "name": "lovie",
-  "version": "1.0.9",
+  "version": "1.0.10",
+  "mcpName": "co.lovie/company-formation",
   "description": "MCP stdio-to-HTTP proxy for Lovie company formation tools",
   "type": "module",
   "bin": {
